@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    
+    width: 1300px;
+    height: auto;
+    border: 2px solid rgba(0, 0, 0, 0.302);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #246b81;
+}
+header{
+
+    margin-top: 30px;    
+}
+header .head{
+    height: 90px;
+    background-color: #246b81;
+    position: relative;
+}
+header .head .text{
+    position: absolute;
+    right: 30px;
+    background-color: white;
+    color:#246b81 ;
+    font-size: 36px;
+    line-height: 86px;
+    padding: 0px 10px;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+.content .name{
+    font-size:48px ;
+    font-weight: bold;
+    color:#246b81 ;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 70px;
+}
+.content .personal{
+    position: relative;
+    margin-bottom: 50px;
+    
+}
+.content .personal .personal-infor{
+    
+    line-height: 48px;
+    font-size: 24px;
+    padding-left: 70px;
+   
+}
+.personal .personal-infor .personal-infor-item{
+    
+}
+.personal .personal-infor .personal-infor-item label{
+    font-weight: bold;
+    width: 200px;
+    display: inline-block;
+}
+.personal .personal-infor .personal-infor-item i{
+    opacity: 0.7;
+    
+}
+.personal .personal-avatar{
+    position:absolute;
+    top:0;
+    right: 150px
+}
+
+/* mục tiêu */
+
+.muc-tieu{
+    padding-left: 70px;
+    margin-bottom: 30px;
+}
+.muc-tieu h1{
+    padding: 0px 0px 15px 0px;
+    color:#246b81 ;
+    font-weight: 500;
+}
+.muc-tieu p{
+    font-size: 24px;
+    line-height: 36px;
+}
+/* học vấn */
+
+.hoc-van{
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+.hoc-van h1{
+    padding: 0px 0px 15px 0px;
+    color:#246b81 ;
+    font-weight: 500;
+}
+.hoc-van p{
+    font-size: 24px;
+    line-height: 36px;
+}
+/* đánh giá  */
+.danh-gia{
+    margin-left: 70px;
+    margin-bottom: 30px;
+
+}
+.danh-gia h1{
+    padding: 0px 0px 15px 0px;
+    color:#246b81 ;
+    font-weight: 500;
+}
+
+.danh-gia .danh-gia-left {
+    float: left;
+    margin-right: 400px;
+    font-size: 24px;
+    line-height: 36px;
+}
+.danh-gia-left label{
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+.danh-gia-left i{
+    color: #246b81;
+}
+.danh-gia .danh-gia-right {
+    font-size: 24px;
+    line-height: 36px;
+}
+.danh-gia-right label{
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+.danh-gia-right i{
+    color: #246b81;
+}
+
+.danh-gia .phan-mem-khac {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+
+
+.clear{
+    clear: both;
+}
+/* kỹ năng */
+
+.ky-nang{
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+.ky-nang h1{
+    padding: 0px 0px 15px 0px;
+    color:#246b81 ;
+    font-weight: 500;
+}
+.ky-nang label{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    display: inline-block;
+    width: 200px;
+}
+.ky-nang i{
+    font-size: 24px;
+
+}
+/* footer */
+ footer{
+     height: 70px;
+     background-color: #246b81;
+     margin-bottom: 30px;
+ }
+
+
